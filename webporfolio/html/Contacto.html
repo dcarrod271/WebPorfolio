@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contacto — Daniel Carretero Rodríguez</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1 class="logo">Mi Porfolio</h1>
+        <nav class="nav" aria-label="Navegación principal">
+            <a class="btn" href="index.html">Inicio</a>
+            <a class="btn" href="Biografia.html">Biografía</a>
+            <a class="btn" href="Estudios.html">Estudios</a>
+            <a class="btn" href="Aficiones.html">Aficiones</a>
+        </nav>
+    </header>
+
+    <main class="content">
+        <h2 id="titulo-contacto">Contacto</h2>
+
+        <section class="contacto-intro">
+            <p>¿Tienes alguna pregunta o te interesa contactarme? Rellena el formulario y te responderé lo antes posible.</p>
+        </section>
+
+        <section class="contacto-container">
+            <div class="contacto-info">
+                <article class="contact-card">
+                    <h3>Información de contacto</h3>
+                    <ul>
+                        <li><strong>Correo:</strong> dani.cr575@gmail.com</li>
+                        <li><strong>Teléfono:</strong> +34 655 705 686</li>
+                        <li><strong>Residencia 1:</strong> Lucena, Córdoba C/Córdoba n8 3A</li>
+                        <li><strong>Residencia 2:</strong> Córdoba Avd. Gran Vía Parque n15 2izq</li>
+                    </ul>
+                </article>
+
+                <article class="contact-card">
+                    <h3>Redes sociales</h3>
+                    <ul>
+                        <li><a href="https://" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://github.com" target="_blank">GitHub</a></li>
+                        <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                    </ul>
+                </article>
+            </div>
+
+            <form class="contacto-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="tu@correo.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="asunto">Asunto</label>
+                    <input type="text" id="asunto" name="asunto" placeholder="Asunto del mensaje" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" placeholder="Tu mensaje aquí..." rows="6" required></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Enviar mensaje</button>
+            </form>
+        </section>
+<hr>
+        <p style="text-align: center; margin-top: 24px;"><a class="btn" href="index.html">Volver al inicio</a></p>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2025 Mi porfolio</p>
+    </footer>
+</body>
+</html>
